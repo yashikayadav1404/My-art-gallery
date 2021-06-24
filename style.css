@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding top: 800px;
+    text-align: center;
+    background: #00FFCC;
+    background: -moz-radial-gradient(center, #00FFCC 0%, #FF50CB 50%, #FFED00 100%);
+    background: -webkit-radial-gradient(center, #00FFCC 0%, #FF50CB 50%, #FFED00 100%);
+    background: radial-gradient(ellipse at center, #00FFCC 0%, #FF50CB 50%, #FFED00 100%);
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.line {
+    height: 6px;
+    width: 80px;
+    background: Black;
+    margin: 8px auto;
+
+}
+
+#image1 {
+    width: 500px;
+    height: 400px;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    color: red;
+    font-weight: 400;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+}
+
+.profile {
+    width: 250px;
+    height: 300px;
+    border-radius: 1000px;
+}
+
+#welcome {
+    position: absolute;
+    color: white;
+    bottom: 0;
+
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
